@@ -36,15 +36,12 @@ void quicksort(int arr[], int low, int high) {
 int main() {
     int arr[100];
 	
-	cout<<"Input 10 data : ";
+	cout<<"Data yang akan di sort : ";
 	for (int i = 0; i < 10; i++) {
         cin>>arr[i];
     }
+    
 	
-    cout << "\nData yang akan di sort : ";
-    for (int i = 0; i < 10; i++) {
-       	cout << arr[i] << " ";
-    }
     cout << endl << endl;
 
     cout << "Quick Sort : " << endl;
